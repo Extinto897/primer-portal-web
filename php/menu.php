@@ -5,6 +5,8 @@
             <li><a href="#alquilar">Alquilar</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="php/contacto.php">Contactos</a></li>
+            <li><a href="#">Mis propiedades</a></li>
+            <li><a href="#">Zona Usuarios</a></li>
         </ul>
     </nav>
     <main>
