@@ -116,19 +116,3 @@ nav {
                         }
                         /*Fin de footer*/
 
-.login {
-    padding: 10px 20px;
-    background-color: #17d3c6; /*cambia el color del boton*/
-    color: rgb(0, 0, 0);     /*cambia el color del texto*/
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.logout {
-    padding: 10px 20px;
-    background-color: #17d3c6; /*cambia el color del boton*/
-    color: rgb(0, 0, 0);     /*cambia el color del texto*/
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
