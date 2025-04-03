@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,75 +10,13 @@
     <meta name="keywords" content="">
     <meta name="author" content="Alejandro Sanahuja Benitez">
     <title>portal web de pruevas</title>
-    <link rel="shortcut icon" href="../img/favicon.ico" alt="">
+    <link rel="shortcut icon" href="img/favicon.ico" alt="">
     <title>Contacto - Cimientos & Sueños Inmobiliaria</title>
-    <style>
-        .contact-form {
-            max-width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #333;
-        }
-        input, select, textarea {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        .error {
-            border-color: #ff0000;
-        }
-        .error-message {
-            color: #ff0000;
-            font-size: 0.8em;
-            display: none;
-        }
-        .submit-btn {
-            background-color: #2a5d84;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-        .submit-btn:hover {
-            background-color: #1e4563;
-        }
-        .home-btn {
-            display: inline-block;
-            background-color: #666;
-            color: white;
-            padding: 8px 15px;
-            border-radius: 4px;
-            text-decoration: none;
-            margin-bottom: 20px;
-        }
-        .home-btn:hover {
-            background-color: #4d4d4d;
-        }
-        h2 {
-            color: #2a5d84;
-            text-align: center;
-            margin-bottom: 25px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
     <div class="contact-form">
-        <a href="../Index.php" class="home-btn">Inicio</a>
+        <a href="http://localhost/portal%20web/" class="home-btn">Inicio</a>
         <h2>Cimientos & Sueños<br>Inmobiliaria</h2>
         <form action="/enviar" method="POST" onsubmit="return validarFormulario()">
             <div class="form-group">
@@ -168,3 +109,6 @@
     </script>
 </body>
 </html>
+<?php
+var_dump($_SESSION)
+?>
