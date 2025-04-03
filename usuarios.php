@@ -9,7 +9,7 @@ if ($_SESSION['rol'] != "administrador") {
 else {
     include "Cabezera.php";
     include "menu.php";
-    include "usuarios.php";
+    include "cont_usuarios.php";
     include "pie.php";
 }
 var_dump($_SESSION)
